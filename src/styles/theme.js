@@ -12,7 +12,7 @@ export const lightTheme = {
     headerFormColor: "rgba(15, 63, 42, 0.36)",
   },
   screens: {
-    lg: "92-82px",
+    lg: "992px",
   },
 };
 
