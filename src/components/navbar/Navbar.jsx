@@ -23,7 +23,7 @@ const Navbar = () => {
         <MenuLink onClick={handleClose} to="/">Home</MenuLink>
         <MenuLink onClick={handleClose} to="/about">About</MenuLink>
         {user ? (
-          <MenuLink to="login" onClick={logOut}>
+          <MenuLink to="/login" onClick={logOut}>
             Logout
           </MenuLink>
         ) : (
