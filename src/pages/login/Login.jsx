@@ -25,7 +25,7 @@ export const Login = () => {
           <Header>Login Here</Header>
           <StyledInput type="text" placeholder="username" required />
           <StyledInput type="password" placeholder="password" required />
-          <StyledButton>Login</StyledButton>
+          <StyledButton type="submit">Login</StyledButton>
         </StyledForm>
       </FormContainer>
     </LoginContainer>
