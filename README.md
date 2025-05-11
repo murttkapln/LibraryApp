@@ -1,7 +1,7 @@
 <p>Clarusway<img align="right"
   src="https://secure.meetupstatic.com/photos/event/3/1/b/9/600_488352729.jpeg"  width="15px"></p>
 
-# Project-007 : Clarus Library
+# Project-007 : Mkap Library
 
 ## Description
 
@@ -80,7 +80,7 @@ SOLUTION
 
 ## Expected Outcome
 
-![Clarus Library](clarus-library.gif)
+![Clarus Library](library.gif)
 
 ## Objective
 
