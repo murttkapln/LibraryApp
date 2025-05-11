@@ -31,7 +31,7 @@ const BooksContextProvider = ({ children }) => {
 
   const values = { myData, setMyData, getData, searchInfo, setSearchInfo };
   return (
-    <BooksContext.Provider value={{ values }}>{children}</BooksContext.Provider>
+    <BooksContext.Provider value={values}>{children}</BooksContext.Provider>
   );
 };
 
