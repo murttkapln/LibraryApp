@@ -1,9 +1,25 @@
-import React from 'react'
+import {
+  HeaderButton,
+  HeaderContainer,
+  HeaderForm,
+  HeaderTitle,
+  SearchInput,
+  SelectBox,
+} from "./Header.style";
 
 const Header = () => {
   return (
-    <div>Header</div>
-  )
-}
+    <HeaderContainer>
+      <HeaderTitle>Books Or Magazines</HeaderTitle>
+      <HeaderForm>
+        <SearchInput type="search" placeholder="search..." />
+        <SelectBox>
+          <option>All</option>
+        </SelectBox>
+        <HeaderButton>Search</HeaderButton>
+      </HeaderForm>
+    </HeaderContainer>
+  );
+};
 
-export default Header
+export default Header;
