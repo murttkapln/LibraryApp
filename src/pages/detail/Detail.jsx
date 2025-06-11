@@ -15,25 +15,27 @@ import { useEffect, useState } from "react";
 const Detail = () => {
   const { state } = useLocation();
   const { id } = useParams();
-  const [detailData, setDetailData] = useState("")
+  // eslint-disable-next-line
+  const [detailData, setDetailData] = useState("");
   // console.log(state);
 
   const APP_KEY = process.env.REACT_APP_apiKey;
   const url = `https://www.googleapis.com/books/v1/volumes/${id}?key=${APP_KEY}`;
 
-  const getDetailData = async ()=> {
+  const getDetailData = async () => {
     try {
-      const {data} = await axios(url)
+      const { data } = await axios(url);
       // console.log(data);
-      setDetailData(data)
+      setDetailData(data);
     } catch (error) {
       console.log(error);
     }
-  }
+  };
   useEffect(() => {
-    getDetailData()
-  }, [])
-  
+    getDetailData();
+    // eslint-disable-next-line
+  }, []);
+
   return (
     <DetailContainer>
       <DetailPart>
