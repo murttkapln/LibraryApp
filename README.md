@@ -1,11 +1,11 @@
 <p>Clarusway<img align="right"
   src="https://secure.meetupstatic.com/photos/event/3/1/b/9/600_488352729.jpeg"  width="15px"></p>
 
-# Project-007 : Mkap Library
+# Project-007 :  Library App
 
 ## Description
 
-Project aims to create a Clarus Library.
+Project aims to create a  Library.
 
 ## Problem Statement
 
@@ -80,7 +80,7 @@ SOLUTION
 
 ## Expected Outcome
 
-![Clarus Library](library.gif)
+![Kaplan Library](library.gif)
 
 ## Objective
 
@@ -121,7 +121,7 @@ Build a Clarus Library using ReactJS.
 - You can add additional functionalities to your app.
 
 ## Demo
-  <a href="https://clarus-library.vercel.app/" target="_blank">Clarus Library</a>
+  <a href="https://kaplan-library-app.vercel.app" target="_blank">Clarus Library</a>
 
 ## Google Books API
 
