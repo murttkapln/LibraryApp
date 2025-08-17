@@ -84,7 +84,7 @@ SOLUTION
 
 ## Objective
 
-Build a Clarus Library using ReactJS.
+Build a  Library App using ReactJS.
 
 ### At the end of the project, following topics are to be covered;
 
@@ -104,7 +104,7 @@ Build a Clarus Library using ReactJS.
 
 ## Steps to Solution
 
-- Step 1: Create React App using `yarn create react-app clarus-library`or `npx create-react-app clarus-library`
+- Step 1: Create React App using `yarn create react-app library-app`or `npx create-react-app library-app`
 
 - Step 2: Go to `https://developers.google.com/books/docs/v1/using?hl=tr` and get api key.
 
@@ -121,7 +121,7 @@ Build a Clarus Library using ReactJS.
 - You can add additional functionalities to your app.
 
 ## Demo
-  <a href="https://kaplan-library-app.vercel.app" target="_blank">Clarus Library</a>
+  <a href="https://kaplan-library-app.vercel.app" target="_blank">Kaplan Library App</a>
 
 ## Google Books API
 
