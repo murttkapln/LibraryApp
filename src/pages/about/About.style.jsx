@@ -1,5 +1,4 @@
 // About Style
-
 import styled from "styled-components";
 import Flex from "../../styles/Flex";
 
@@ -8,7 +7,6 @@ export const AboutContainer = styled(Flex)`
   line-height: 2;
   text-align: center;
 `;
-
 export const ProfileImg = styled.img`
   margin: 2rem 0;
   border-radius: 50%;

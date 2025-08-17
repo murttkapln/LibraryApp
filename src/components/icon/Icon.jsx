@@ -1,3 +1,4 @@
+
 import { SvgIcon } from "./Icon.style";
 
 const Icon = ({ path, icon, color }) => {
@@ -9,10 +10,10 @@ const Icon = ({ path, icon, color }) => {
       height="32"
       fill="currentColor"
       className={`bi bi-${icon}`}
-      viewBox="0 0 16 16"
-    >
+      viewBox="0 0 16 16">
       <path d={path} />
     </SvgIcon>
   );
 };
+
 export default Icon;

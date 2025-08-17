@@ -2,9 +2,9 @@
 
 import styled from "styled-components";
 
-export const SvgIcon = styled.div`
+export const SvgIcon = styled.svg`
     :hover{
-        color:#{({hoverColor})=> hoverColor};
+        color:${({hoverColor})=> hoverColor};
     }
 
 
