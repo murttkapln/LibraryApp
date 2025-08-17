@@ -14,7 +14,7 @@ Project aims to create a Clarus Library.
 ## Project Skeleton
 
 ```
-007 - Clarus Library (folder)
+007 -  Library  App (folder)
 |
 |----readme.md         # Given to the students (Definition of the project)
 SOLUTION
