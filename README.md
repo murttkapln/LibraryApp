@@ -16,7 +16,7 @@ Project aims to create a  Library.
 ```
 007 -  Library  App (folder)
 |
-|----readme.md         # Given to the students (Definition of the project)
+|----readme.md         
 SOLUTION
 ├── public
 │     └── index.html
